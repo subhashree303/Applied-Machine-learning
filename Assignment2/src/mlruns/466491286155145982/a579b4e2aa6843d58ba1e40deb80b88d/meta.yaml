@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/cmi/sem%204/AppliedML/ass2/src/mlruns/466491286155145982/a579b4e2aa6843d58ba1e40deb80b88d/artifacts
+end_time: 1708434013375
+entry_point_name: ''
+experiment_id: '466491286155145982'
+lifecycle_stage: active
+run_id: a579b4e2aa6843d58ba1e40deb80b88d
+run_name: naive_bayes
+run_uuid: a579b4e2aa6843d58ba1e40deb80b88d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708434007233
+status: 3
+tags: []
+user_id: subha

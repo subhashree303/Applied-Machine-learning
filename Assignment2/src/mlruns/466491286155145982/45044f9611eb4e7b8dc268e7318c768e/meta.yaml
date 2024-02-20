@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/cmi/sem%204/AppliedML/ass2/src/mlruns/466491286155145982/45044f9611eb4e7b8dc268e7318c768e/artifacts
+end_time: 1708434026365
+entry_point_name: ''
+experiment_id: '466491286155145982'
+lifecycle_stage: active
+run_id: 45044f9611eb4e7b8dc268e7318c768e
+run_name: lightgbm
+run_uuid: 45044f9611eb4e7b8dc268e7318c768e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708434013396
+status: 3
+tags: []
+user_id: subha

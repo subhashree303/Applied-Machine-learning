@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/cmi/sem%204/AppliedML/ass2/src/mlruns/466491286155145982/eadc515c60a0427c80063f5f9dd61bbd/artifacts
+end_time: 1708434007226
+entry_point_name: ''
+experiment_id: '466491286155145982'
+lifecycle_stage: active
+run_id: eadc515c60a0427c80063f5f9dd61bbd
+run_name: logistic_regression
+run_uuid: eadc515c60a0427c80063f5f9dd61bbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708434000898
+status: 3
+tags: []
+user_id: subha
