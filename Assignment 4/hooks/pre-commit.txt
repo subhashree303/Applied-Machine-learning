@@ -1,0 +1,25 @@
+#!/bin/sh
+
+branch="$(git symbolic-ref HEAD 2>/dev/null)" || \
+branch="(unnamed branch)"     # detached HEAD
+
+branch=${branch##refs/heads/}
+
+if [ "$branch" = "main" ]; then
+  # Stash unstaged changes
+  git stash -q --keep-index
+
+  # Run test suite
+  pytest test.py
+
+  # Store the last command's return status
+  RESULT=$?
+
+  # Unstash changes
+  git stash pop -q
+
+  # If tests failed, prevent commit
+  [ $RESULT -ne 0 ] && exit 1
+fi
+
+exit 0
